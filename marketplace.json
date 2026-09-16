@@ -13,7 +13,7 @@
       "name": "informed-captain",
       "description": "A GitHub Copilot plugin that helps a named human captain make informed, accountable decisions.",
       "version": "0.1.1",
-      "source": "plugins/informed-captain"
+      "source": "https://github.com/brandonh-msft/plugin-informed_captain.git"
     }
   ]
 }
