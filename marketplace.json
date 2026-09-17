@@ -6,14 +6,20 @@
   },
   "metadata": {
     "description": "Marketplace catalog for Brandon H's GitHub Copilot plugins.",
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   "plugins": [
     {
       "name": "informed-captain",
       "description": "A GitHub Copilot plugin that helps a named human captain make informed, accountable decisions.",
       "version": "0.1.1",
-      "source": "https://github.com/brandonh-msft/plugin-informed_captain.git"
+      "source": "brandonh-msft/plugin-informed_captain"
+    },
+    {
+      "name": "session-registry",
+      "description": "A GitHub Copilot plugin that helps developers share full AI coding sessions.",
+      "version": "0.0.1",
+      "source": "brandonh-msft/plugin-session_registry"
     }
   ]
 }
