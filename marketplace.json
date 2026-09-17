@@ -21,12 +21,33 @@
     },
     {
       "name": "session-registry",
+      "displayName": "Session Registry",
       "description": "A GitHub Copilot plugin that helps developers share full AI coding sessions.",
-      "version": "0.0.1",
+      "version": "0.0.3",
       "source": {
         "source": "github",
         "repo": "brandonh-msft/plugin-session_registry"
-      }
+      },
+      "author": {
+        "name": "bc3tech"
+      },
+      "repository": "https://github.com/bc3tech/session-registry",
+      "homepage": "https://github.com/bc3tech/session-registry",
+      "keywords": [
+        "session",
+        "registry",
+        "publishing",
+        "security",
+        "agent"
+      ],
+      "category": "security",
+      "tags": [
+        "session",
+        "registry",
+        "publishing",
+        "security",
+        "agent"
+      ]
     }
   ]
 }
