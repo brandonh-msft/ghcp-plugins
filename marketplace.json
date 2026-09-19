@@ -23,7 +23,7 @@
       "name": "session-registry",
       "displayName": "Session Registry",
       "description": "A GitHub Copilot plugin that helps developers share full AI coding sessions.",
-      "version": "0.0.3",
+      "version": "0.1.0",
       "source": {
         "source": "github",
         "repo": "brandonh-msft/plugin-session_registry"
