@@ -5,7 +5,8 @@
   "description": "Validation and catalog tooling for a GitHub Copilot plugin marketplace repo.",
   "type": "module",
   "scripts": {
-    "validate": "node ./scripts/validate-marketplace.mjs"
+    "validate": "node ./scripts/validate-marketplace.mjs",
+    "generate:codex": "node ./scripts/generate-codex-marketplace.mjs"
   },
   "engines": {
     "node": ">=20"

@@ -1,0 +1,39 @@
+name: Generate Codex Marketplace
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - marketplace.json
+      - scripts/generate-codex-marketplace.mjs
+      - .github/workflows/generate-codex-marketplace.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+
+      - name: Generate Codex marketplace
+        run: npm run generate:codex
+
+      - name: Commit generated marketplace
+        run: |
+          git add -f .agents/plugins/marketplace.json
+          if git diff --cached --quiet -- .agents/plugins/marketplace.json; then
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: sync Codex marketplace"
+          git push
