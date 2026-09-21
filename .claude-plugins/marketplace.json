@@ -1,0 +1,54 @@
+{
+  "name": "brandonh-msft-plugins",
+  "owner": {
+    "name": "Brandon H",
+    "email": "brandonh-msft@users.noreply.github.com"
+  },
+  "metadata": {
+    "description": "Marketplace catalog for Brandon H's GitHub Copilot plugins.",
+    "version": "0.2.1"
+  },
+  "plugins": [
+    {
+      "name": "informed-captain",
+      "displayName": "Informed Captain",
+      "description": "A GitHub Copilot plugin that helps a named human captain make informed, accountable decisions.",
+      "version": "0.1.1",
+      "source": {
+        "source": "github",
+        "repo": "brandonh-msft/plugin-informed_captain"
+      },
+      "category": "business & operations"
+    },
+    {
+      "name": "session-registry",
+      "displayName": "Session Registry",
+      "description": "Capture, scan, publish, and share native AI agent sessions securely.",
+      "version": "1.0.0",
+      "source": {
+        "source": "github",
+        "repo": "brandonh-msft/plugin-session_registry"
+      },
+      "author": {
+        "name": "bc3tech"
+      },
+      "repository": "https://github.com/bc3tech/session-registry",
+      "homepage": "https://github.com/bc3tech/session-registry",
+      "keywords": [
+        "sessions",
+        "publishing",
+        "collaboration",
+        "debugging",
+        "development"
+      ],
+      "category": "developer tools",
+      "tags": [
+        "session",
+        "registry",
+        "publishing",
+        "security",
+        "agent"
+      ]
+    }
+  ]
+}
