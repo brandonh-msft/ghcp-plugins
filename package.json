@@ -8,7 +8,8 @@
     "validate": "node ./scripts/validate-marketplace.mjs",
     "validate-sync": "node ./scripts/validate-marketplace-sync.mjs",
     "copy-claude-marketplace": "./scripts/copy-marketplace-to-claude.sh",
-    "postinstall": "npm run copy-claude-marketplace"
+    "postinstall": "npm run copy-claude-marketplace",
+    "generate:codex": "node ./scripts/generate-codex-marketplace.mjs"
   },
   "engines": {
     "node": ">=20"

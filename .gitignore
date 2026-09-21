@@ -47,6 +47,7 @@ $RECYCLE.BIN/
 .nfs*
 
 ### VS Code
+.agents/
 # VSCode settings (keep shared configuration)
 .vscode/*
 !.vscode/settings.json
