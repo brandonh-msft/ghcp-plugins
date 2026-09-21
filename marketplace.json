@@ -1,5 +1,4 @@
 {
-  "$schema": "https://awslabs.github.io/agent-plugins/schemas/marketplace.schema.json",
   "name": "brandonh-msft-plugins",
   "owner": {
     "name": "Brandon H",
@@ -12,12 +11,14 @@
   "plugins": [
     {
       "name": "informed-captain",
+      "displayName": "Informed Captain",
       "description": "A GitHub Copilot plugin that helps a named human captain make informed, accountable decisions.",
       "version": "0.1.1",
       "source": {
         "source": "github",
         "repo": "brandonh-msft/plugin-informed_captain"
-      }
+      },
+      "category": "business & operations" 
     },
     {
       "name": "session-registry",
@@ -40,7 +41,7 @@
         "debugging",
         "development"
       ],
-      "category": "security",
+      "category":"developer tools":
       "tags": [
         "session",
         "registry",
