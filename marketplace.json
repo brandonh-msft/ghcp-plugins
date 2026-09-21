@@ -23,7 +23,7 @@
       "name": "session-registry",
       "displayName": "Session Registry",
       "description": "Capture, scan, publish, and share native AI agent sessions securely.",
-      "version": "0.9.0",
+      "version": "1.0.0",
       "source": {
         "source": "github",
         "repo": "brandonh-msft/plugin-session_registry"
