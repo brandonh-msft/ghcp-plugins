@@ -6,7 +6,7 @@ This repository is a marketplace-style catalog for GitHub Copilot plugins.
 
 - `plugins/`: one folder per plugin
 - `marketplace.json`: catalog index of all published plugins in this repo
-- `.claude-plugins/marketplace.json`: Claude-compatible marketplace catalog (automatically generated)
+- `.claude-plugin/marketplace.json`: Claude-compatible marketplace catalog (automatically generated)
 - `scripts/validate-marketplace.mjs`: local and CI validation script
 
 ## Plugin Packaging Contract

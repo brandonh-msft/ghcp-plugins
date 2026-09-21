@@ -32,8 +32,8 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          git add -f .claude-plugins/marketplace.json .agents/plugins/marketplace.json
-          if git diff --cached --quiet -- .claude-plugins/marketplace.json .agents/plugins/marketplace.json; then
+          git add -f .claude-plugin/marketplace.json .agents/plugins/marketplace.json
+          if git diff --cached --quiet -- .claude-plugin/marketplace.json .agents/plugins/marketplace.json; then
             exit 0
           fi
 

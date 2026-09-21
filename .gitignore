@@ -61,5 +61,5 @@ $RECYCLE.BIN/
 # Built Visual Studio Code Extensions
 *.vsix
 
-# Claude plugins directory
-.claude-plugins/
+# Claude plugin directory
+.claude-plugin/
