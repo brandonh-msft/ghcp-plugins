@@ -49,6 +49,17 @@
         "security",
         "agent"
       ]
+    },
+    {
+      "name": "brandonh-digital-twin",
+      "displayName": "Digital Twin",
+      "description": "Brandon Hurlburt's Digital Twin plugin for GitHub Copilot.",
+      "version": "2.0.34",
+      "source": {
+        "source": "git",
+        "url": "https://git.bc3.tech/bc3tech/digital-twin.git"
+      },
+      "category": "persona"
     }
   ]
 }
